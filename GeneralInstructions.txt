@@ -1,0 +1,13 @@
+Please start with Scenario 1 and work your way through to Scenario 5.
+
+Open the scenario folder you are working on in your IDE of choice, for example Visual Studio or VS Code.
+
+You are allowed to look at any of the files within the repo along with these documentation links, as required:
+https://azure.github.io/azure-sdk-for-cpp/
+https://github.com/Azure/azure-sdk-for-cpp/tree/master/sdk/storage
+
+These cloud resources have already been created for you on Azure:
+
+
+Boiler plate code is provided as a starting point to avoid using unrelated APIs so try to leverage what's already there and focus on the task at hand.
+Each scenario has a TODO comment with instructions along with some notes.
