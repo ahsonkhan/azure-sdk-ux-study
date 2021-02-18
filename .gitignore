@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+# VS
+.vs/
+out/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# vscode
+.vscode/
+
+# CMake
+build/
+/cmake-build-debug
