@@ -6,6 +6,12 @@ You are allowed to look at any of the files within the repo along with these doc
 https://azure.github.io/azure-sdk-for-cpp/
 https://github.com/Azure/azure-sdk-for-cpp/tree/master/sdk/storage
 
+The following tools are available for you to use and already installed on the machine:
+- Git
+- CMake
+- Visual Studio
+- VS Code
+
 These cloud resources have already been created for you on Azure:
 
 
