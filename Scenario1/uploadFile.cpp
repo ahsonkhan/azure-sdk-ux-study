@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <stdexcept>
 
 // Add any necessary #include headers here
 
@@ -16,7 +17,7 @@ const std::string& GetConnectionString()
 		return ConnectionString;
 	}
 
-	const char* envConnection = std::getenv("AZURE_STORAGE_CONNECTION_STRING");
+	const char* envConnection = std::getenv("AZ_STORAGE_CONNECTION_STRING_1");
 	if (envConnection)
 	{
 		const static std::string envConnectionString = std::string(envConnection);

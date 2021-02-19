@@ -4,7 +4,7 @@
 #include <vector>
 #include <stdexcept>
 
-// Add the necessary #include headers here
+// Add any necessary #include headers here
 
 // This is a helper method to read the storage connection string from the environment that you can use.
 // There is no need to modify this.
@@ -66,7 +66,7 @@ const std::string& GetConnectionStringTwo()
 // Note: For the implementation of this method, return 0 for success, and non-zero for any error.
 // Note: Here are the Azure Storage account details. The connection string to connect to the service is 
 // set in the environment variable.
-// Note: The connection strings to connect to both the source and detination blob storage service are 
+// Note: The connection strings to connect to both the source and destination blob storage service are 
 // already set in the environment variables and can be retrieved by calling 'GetConnectionStringOne()' 
 // and 'GetConnectionStringTwo()'. You do not need to go to the Azure portal.
 // Note: You don't need to install the package dependency from scenario 1 as the CMakeLists.txt already 
